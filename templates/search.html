@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+{% block content %}
+
+
+{% for field in search_results %}
+{{ field["project_name"] }}
+{% endfor %}
+
+{% endblock %}
